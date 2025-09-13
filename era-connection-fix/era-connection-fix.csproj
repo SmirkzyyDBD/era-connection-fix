@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <RootNamespace>era_connection_fix</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ApplicationIcon>icon\favicon.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon\favicon.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="BCMakeCert">
+      <HintPath>E:\Cracked\bUnlocker\BUnlocker\dlls\BCMakeCert.dll</HintPath>
+    </Reference>
+    <Reference Include="FiddlerCore">
+      <HintPath>..\..\..\BHVR Unlocker V2\BHVR-Unlocker-V2\BHVR-Unlocker-V2\bin\Debug\net9.0-windows\FiddlerCore.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>E:\Cracked\bUnlocker\BUnlocker\dlls\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
